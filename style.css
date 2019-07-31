@@ -1,0 +1,76 @@
+
+  body{
+    font-family: serif;
+    background-image: linear-gradient(Aqua, AliceBlue);
+
+  }
+  h1{
+    text-align: center;
+    text-shadow: aqua
+        color: blue
+  }
+  h3{
+    text-align: center;
+    color: darkGrey
+  }
+  div{
+    text-align: center;
+  }
+  small{
+    font-family: monospace;
+  }
+  img{
+    text-align: center;
+    max-height: 40%;
+    max-width: 40%;
+  }
+  img{
+    max-width: 50%;
+    max-height: 50%;
+
+  }
+  #disney{
+    height: 30%;
+    width: 30%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid darkGrey
+  }
+  #snow{
+    display:block;
+    height: 40%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 5px solid darkGrey
+  }
+#lips{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 5px solid darkGrey
+}
+#selfie{
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  border-radius: 5px;
+  border: 5px solid darkGrey
+}
+button{
+  background-color: AliceBlue; /* Green */
+  padding: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  float: left;
+}
+
+
+button:hover {
+  background-color: darkBlue;
+  color: white;
+}
